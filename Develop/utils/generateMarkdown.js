@@ -75,7 +75,7 @@ ${data.testInstructions}
 ## Questions
 
 For additional information, you can reach the author at: 
-${data.github}
+https://www.github.com/${data.github}\n
 ${data.email}
 
 
