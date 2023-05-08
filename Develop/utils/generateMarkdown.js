@@ -4,7 +4,9 @@ function renderLicenseBadge(license) {
   if(license === '' || license === null || license === 'None'){
     return '';
   }else{
-    return `[![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)]`
+    let trimLicense = license.replace(" ", "%20")
+    return `## Badges
+[![License: ${license}](https://img.shields.io/badge/License-${trimLicense}-yellow.svg)]`
   }
 }
 
@@ -14,7 +16,7 @@ function renderLicenseLink(license) {
   if(license === '' || license === null || license === 'None'){
     return '';
   }else{
-    return `[License](#license)`
+    return `- [License](#license)`
   }
 }
 
@@ -44,10 +46,7 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- ${renderLicenseLink(data.license)}\n
-
-
-
+${renderLicenseLink(data.license)}\n
 ## Installation
 
 ${data.installInstruction}
@@ -61,12 +60,7 @@ ${data.usageInformation}
 ## Credits
 
 ${data.credits}
-
-
-${renderLicenseSection(data.license)}\n
-
-
-## Badges
+${renderLicenseSection(data.license)}
 
 ${renderLicenseBadge(data.license)}
 
