@@ -1,8 +1,8 @@
-# j
+# hello
 
 ## Description
 
-f
+desc
 
 
 ## Table of Contents
@@ -10,33 +10,36 @@ f
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-
+- [License](#license)
 
 ## Installation
 
-as
+no
 
 
 ## Usage
 
-asd
+why
 
 
 ## Credits
 
-sdg
+f
+## License
+    
+This project is licensed under: BSD 3
 
-
-
+## Badges
+[![License: BSD 3](https://img.shields.io/badge/License-BSD%203-yellow.svg)]
 
 
 ## How to Contribute
 
-gfswd
+s
 
 
 ## Tests
 
-sdfg
+g
 
 
