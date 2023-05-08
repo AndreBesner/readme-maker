@@ -72,6 +72,13 @@ ${data.contributing}
 ${data.testInstructions}
 
 
+## Questions
+
+For additional information, you can reach the author at: 
+${data.github}
+${data.email}
+
+
 `;
 }
 

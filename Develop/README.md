@@ -1,8 +1,8 @@
-# hello
+# asd
 
 ## Description
 
-desc
+asd
 
 
 ## Table of Contents
@@ -14,32 +14,39 @@ desc
 
 ## Installation
 
-no
+asd
 
 
 ## Usage
 
-why
+asd
 
 
 ## Credits
 
-f
+asd
 ## License
     
-This project is licensed under: BSD 3
+This project is licensed under: MIT
 
 ## Badges
-[![License: BSD 3](https://img.shields.io/badge/License-BSD%203-yellow.svg)]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 
 ## How to Contribute
 
-s
+asd
 
 
 ## Tests
 
-g
+asd
+
+
+## Questions
+
+For additional information, you can reach the author at: 
+
+asdasd
 
 
