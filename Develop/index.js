@@ -17,12 +17,12 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'install-instruction',
+        name: 'installInstruction',
         message: 'Please describe any additional installation steps for your project:',
       },
       {
         type: 'input',
-        name: 'usage-information',
+        name: 'usageInformation',
         message: 'Please enter any additional usage information for your project:',
       },
       {
@@ -30,9 +30,14 @@ const questions = [
         name: 'contributing',
         message: 'Please enter any additional ways to contribute to this project:',
       },
+       {
+        type: 'input',
+        name: 'credits',
+        message: 'Please enter any additional shout outs for this project:',
+      },
       {
         type: 'input',
-        name: 'test-instructions',
+        name: 'testInstructions',
         message: 'Please enter any additional testing instructions:',
       },
       {
