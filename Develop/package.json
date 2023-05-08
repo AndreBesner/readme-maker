@@ -1,0 +1,25 @@
+{
+  "name": "readme-maker",
+  "version": "1.0.0",
+  "description": "a simple command line interface program that generates a nice readme.md file for your project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andre Besner",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreBesner/readme-maker.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "bugs": {
+    "url": "https://github.com/AndreBesner/readme-maker/issues"
+  },
+  "homepage": "https://github.com/AndreBesner/readme-maker#readme"
+}
