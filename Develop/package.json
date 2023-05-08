@@ -1,18 +1,4 @@
 {
-  "name": "static-site",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "inquirer": "8.2.4"
-  }
-}
-{
   "name": "readme-maker",
   "version": "1.0.0",
   "description": "a simple command line interface program that generates a nice readme.md file for your project",
