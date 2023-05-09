@@ -33,6 +33,8 @@ This project is licensed under: ${license}`
 function generateMarkdown(data) {
   return `# ${data.title}
 
+${renderLicenseBadge(data.license)}
+
 ## Description
 
 ${data.description}
@@ -51,15 +53,13 @@ ${data.installInstruction}
 
 ## Usage
 
-${data.usageInformation}
+${data.usageInformation}\n
 
 
 ## Credits
 
-${data.credits}
-${renderLicenseSection(data.license)}
-
-${renderLicenseBadge(data.license)}
+${data.credits}\n
+${renderLicenseSection(data.license)}\n
 
 
 ## How to Contribute
@@ -70,6 +70,13 @@ ${data.contributing}
 ## Tests
 
 ${data.testInstructions}
+
+
+## Questions
+
+For additional information, you can reach the author at: 
+https://www.github.com/${data.github}\n
+${data.email}
 
 
 `;
